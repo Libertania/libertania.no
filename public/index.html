@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>THE LIBERTANIA PROJECT - CITY OF FREEDOM</title>
+    <title>The Libertania Project - City of Freedom</title>
     <meta name="description" content="The Libertania Project - City of Freedom">
     <meta name="keywords" content="LIBERTANIA">
     <meta name="author" content="libertania.no">
@@ -122,6 +122,51 @@ An ambitious project to make a new city from scratch, located in Norway.</p>
                     </div>
                 </div>
             </div>
+            
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="section-title">
+                    <h2>Location</h2>
+                    <hr><div class="clearfix"></div>
+                    </div>
+                    <p>
+                        While many might not realize this, Norway is a good place to start building a new city for many reasons.
+                    </p>
+                    <p>
+                        One of those reasons, is the population density of the country. Norway is ranked together
+                        with countries such as Australia, known for it's widespread dessolate desserts and Greenland for it's
+                        huge massive ice and snow covered areas.
+                       
+                    </p>
+                   <p>
+                       Libertania will be built in Norway, which is covered with green
+                        forests and abundance of fresh clean water.
+                       </p>
+                    
+                </div>
+            </div>
+            
+            <div class="row">
+                <div id="map-canvas"></div>
+                <br>
+            </div>
+            
+                       <div class="row">
+                           <div class="col-md-6"></div>
+                <div class="col-md-6">
+                    <div class="section-title">
+                    <h2>Who We Are</h2>
+                    <hr><div class="clearfix"></div>
+                    </div>
+                    <p>
+                       We are a small group of individuals who are seeking a change in the way society works. We have had enough of governments trying to control, regulate, and force people to comply with laws and rules that has no place in a civilized society.
+We want to start making a better world for everybody. A place where people can be free to prosper and thrive. A place where people can reach their full potential, without a government telling them what they can or can not do.
+                       </p>
+                    
+                </div>
+            </div>
+            
+            
         </div>
     </div>
 
@@ -656,6 +701,21 @@ An ambitious project to make a new city from scratch, located in Norway.</p>
     <!-- Javascripts
     ================================================== -->
     <script type="text/javascript" src="js/main.js"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    
+    <script>
+      function initialize() {
+        var mapCanvas = document.getElementById('map-canvas');
+        var mapOptions = {
+          center: new google.maps.LatLng(58.2139375, 7.51420619999999),
+          zoom: 8,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
 
   </body>
 </html>
