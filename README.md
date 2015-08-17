@@ -13,13 +13,7 @@ present and future rights to this software under copyright law.
 
 # License
 
-* Spirit8 HTML Template by <a href="https://dribbble.com/shots/1817781--FREEBIE-Spirit8-Digital-agency-one-page-template">Robert Berki</a> and Coded by <a href="https://dribbble.com/jennpereira">Jenn Pereira</a>
-* Bootstrap: MIT
-* jQuery: MIT
-* OwlCarousel: MIT
-* SmoothScroll: MIT
-* Modernizr: MIT
-* Isotope: MIT
+* Landing Page HTML template: Copyright 2013-2015 Iron Summit Media Strategies, LLC. Code released under the [Apache 2.0](https://github.com/IronSummitMedia/startbootstrap-landing-page/blob/gh-pages/LICENSE) license.
 * Everything else: The Unlicense (http://unlicense.org)
 
 This is free and unencumbered software released into the public domain.

@@ -1,738 +1,296 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Basic Page Needs
-    ================================================== -->
+
+<head>
+
     <meta charset="utf-8">
-    <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>The Libertania Project - City of Freedom</title>
-    <meta name="description" content="The Libertania Project - City of Freedom">
-    <meta name="keywords" content="LIBERTANIA">
-    <meta name="author" content="libertania.no">
-    
-    <!-- Favicons
-    ================================================== -->
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-    <!-- Bootstrap -->
-    <link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+    <title>The Libertania Project</title>
 
-    <!-- Slider
-    ================================================== -->
-    <link href="css/owl.carousel.css" rel="stylesheet" media="screen">
-    <link href="css/owl.theme.css" rel="stylesheet" media="screen">
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Stylesheet
-    ================================================== -->
-    <link rel="stylesheet" type="text/css"  href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link href="css/landing-page.css" rel="stylesheet">
 
-    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400' rel='stylesheet' type='text/css'>
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
-    <script type="text/javascript" src="js/modernizr.custom.js"></script>
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-  </head>
-  <body>
-    <!-- Navigation
-    ==========================================-->
-    <nav id="tf-menu" class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html">Libertania</a>
-        </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#tf-home" class="page-scroll">Home</a></li>
-            <li><a href="#tf-about" class="page-scroll">About</a></li>
-            <li><a href="#tf-team" class="page-scroll">Team</a></li>
-            <li><a href="#tf-services" class="page-scroll">Contribute</a></li>
-            <li><a href="#tf-facilities" class="page-scroll">Facilities &amp; Activities</a></li>
-            <li><a href="#tf-testimonials" class="page-scroll">Testimonials</a></li>
-            <li><a href="#tf-contact" class="page-scroll">Contact</a></li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+        <div class="container topnav">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand topnav" href="#">The Libertania Project</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#cities">Cities</a>
+                    </li>
+                    <li>
+                        <a href="#connect">Connect</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
     </nav>
 
-    <!-- Home Page
-    ==========================================-->
-    <div id="tf-home" class="text-center">
-        <div class="overlay">
-            <div class="content">
-                <h1>CREATING A <strong><span class="color">NEW CITY</span></strong></h1>
-                <p class="lead">
-An ambitious project to make a new city from scratch, located in Norway.</p>
-                <a href="#tf-about" class="fa fa-angle-down page-scroll"></a>
-            </div>
-        </div>
-    </div>
 
-    <!-- About Us Page
-    ==========================================-->
-    <div id="tf-about">
+    <!-- Header -->
+    
+    <div class="intro-header">
         <div class="container">
+
             <div class="row">
-                <div class="col-md-6">
-                    <img src="img/02.png" class="img-responsive">
-                </div>
-                <div class="col-md-6">
-                    <div class="about-text">
-                        <div class="section-title">
-                            <h4>About Libertania</h4>
-                            <h2>Some words <strong>about the project</strong></h2>
-                            <hr>
-                            <div class="clearfix"></div>
-                        </div>
-                        <p class="intro">It's an ambitious project to make a new city from scratch. But that is our goal. We are determined to make this happen whatever it costs, and whatever obstacles that may come in our way.</p>
-                        <ul class="about-list">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+                        <h1>The Libertania Project</h1>
+                        <h3>Modern Self-Sustained Open Source Cities</h3>
+                        <hr class="intro-divider">
+                        <ul class="list-inline intro-social-buttons">
+                            
                             <li>
-                                <span class="fa fa-dot-circle-o"></span>
-                                <strong>Freedom</strong> - <em>Improve your personal freedom</em>
+                                <a href="https://github.com/Libertania/" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
                             </li>
                             <li>
-                                <span class="fa fa-dot-circle-o"></span>
-                                <strong>Voluntarily</strong> - <em>All city interactions should be of mutual consent</em>
-                            </li>
-                            <li>
-                                <span class="fa fa-dot-circle-o"></span>
-                                <strong>Life</strong> - <em>Enjoy the life you want</em>
+                                <a href="https://www.facebook.com/libertania.no" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
-            
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="section-title">
-                    <h2>Location</h2>
-                    <hr><div class="clearfix"></div>
-                    </div>
-                    <p>
-                        While many might not realize this, Norway is a good place to start building a new city for many reasons.
-                    </p>
-                    <p>
-                        One of those reasons, is the population density of the country. Norway is ranked together
-                        with countries such as Australia, known for it's widespread dessolate deserts and Greenland for it's
-                        huge massive ice and snow covered areas.
-                       
-                    </p>
-                   <p>
-                       Libertania will be built in Norway, which is covered with green
-                        forests and abundance of fresh clean water.
-                       </p>
-                    
-                </div>
-            </div>
-            
-            <div class="row">
-                <div id="map-canvas"></div>
-                <br>
-            </div>
-            
-                       <div class="row">
-                           <div class="col-md-6"></div>
-                <div class="col-md-6">
-                    <div class="section-title">
-                    <h2>Who We Are</h2>
-                    <hr><div class="clearfix"></div>
-                    </div>
-                    <p>
-                       We are a small group of individuals who are seeking a change in the way society works. We have had enough of governments trying to control, regulate, and force people to comply with laws and rules that has no place in a civilized society.
-We want to start making a better world for everybody. A place where people can be free to prosper and thrive. A place where people can reach their full potential, without a government telling them what they can or can not do.
-                       </p>
-                    
-                </div>
-            </div>
-            
-            
+
         </div>
+        <!-- /.container -->
+
     </div>
+    <!-- /.intro-header -->
 
-    <!-- Team Page
-    ==========================================-->
-    <div id="tf-team" class="text-center">
-        <div class="overlay">
-            <div class="container">
-                <div class="section-title center">
-                    <h2>Meet <strong>our team</strong></h2>
-                    <div class="line">
-                        <hr>
-                    </div>
-                </div>
+    <!-- Page Content -->
 
-                <div id="team" class="owl-carousel owl-theme row">
-                    <div class="item">
-                        <div class="thumbnail">
-                            <img src="img/team/01.jpg" alt="..." class="img-circle team-img">
-                            <div class="caption">
-                                <h3>Jenn Gwapa</h3>
-                                <p>CEO / Founder</p>
-                                <p>Do not seek to change what has come before. Seek to create that which has not.</p>
-                            </div>
-                        </div>
-                    </div>
+	<a name="about"></a>
+    <div class="content-section-a">
 
-                    <div class="item">
-                        <div class="thumbnail">
-                            <img src="img/team/02.jpg" alt="..." class="img-circle team-img">
-                            <div class="caption">
-                                <h3>Jenn Gwapa</h3>
-                                <p>CEO / Founder</p>
-                                <p>Do not seek to change what has come before. Seek to create that which has not.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="thumbnail">
-                            <img src="img/team/03.jpg" alt="..." class="img-circle team-img">
-                            <div class="caption">
-                                <h3>Jenn Gwapa</h3>
-                                <p>CEO / Founder</p>
-                                <p>Do not seek to change what has come before. Seek to create that which has not.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="thumbnail">
-                            <img src="img/team/04.jpg" alt="..." class="img-circle team-img">
-                            <div class="caption">
-                                <h3>Jenn Gwapa</h3>
-                                <p>CEO / Founder</p>
-                                <p>Do not seek to change what has come before. Seek to create that which has not.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="thumbnail">
-                            <img src="img/team/04.jpg" alt="..." class="img-circle team-img">
-                            <div class="caption">
-                                <h3>Jenn Gwapa</h3>
-                                <p>CEO / Founder</p>
-                                <p>Do not seek to change what has come before. Seek to create that which has not.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="thumbnail">
-                            <img src="img/team/01.jpg" alt="..." class="img-circle team-img">
-                            <div class="caption">
-                                <h3>Jenn Gwapa</h3>
-                                <p>CEO / Founder</p>
-                                <p>Do not seek to change what has come before. Seek to create that which has not.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="thumbnail">
-                            <img src="img/team/02.jpg" alt="..." class="img-circle team-img">
-                            <div class="caption">
-                                <h3>Jenn Gwapa</h3>
-                                <p>CEO / Founder</p>
-                                <p>Do not seek to change what has come before. Seek to create that which has not.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="thumbnail">
-                            <img src="img/team/03.jpg" alt="..." class="img-circle team-img">
-                            <div class="caption">
-                                <h3>Jenn Gwapa</h3>
-                                <p>CEO / Founder</p>
-                                <p>Do not seek to change what has come before. Seek to create that which has not.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-    </div>
-
-    <!-- Services Section
-    ==========================================-->
-    <div id="tf-services" class="text-center">
         <div class="container">
-            <div class="section-title center">
-                <h2>Contribute to the <strong>Libertania Development Fund</strong></h2>
-                <div class="line">
-                    <hr>
-                </div>
-                <div class="clearfix"></div>
-                <small><em>
-                    To be able to get the project off the ground in a quick manner, we need all the support
-                    and help we can get from the community and from you. There are many ways you can help
-                    with the realization of the project, every penny counts!</em></small>
-            </div>
-            <div class="space"></div>
             <div class="row">
-                <div class="col-md-3 col-sm-6 service">
-                    <!-- <i class="fa fa-desktop"></i>-->
-                    
-                    <a href='https://blockchain.info/address/1DG5REA7ubNXiN4YCb9cSLmpdpmBxjCmjC' target='_blank'>
-<img src="img/bitcoin.png">
-                    </a>
-                    <h4><strong>Bitcoin</strong></h4>
-                    <p>ADDRESS : 1DG5REA7ubNXiN4YCb9cSLmpdpmBxjCmjC</p>
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Open Source Cities:<br>Online Collaboration</h2>
+                    <p class="lead">
+                        The Libertania Project is a joint effort to build a knowledge base of publicly open
+                        and freely available documentation and instructions for planning, building and running
+                        a new city or town.
+                        </p>
+                        <p class="lead">
+                            All documentation is available on <a href="https://github.com/Libertania/">Github</a> and anyone is free to contribute. 
+                            The online forum is available for discussions and questions from the
+                            community.
+                            </p>
+                             <p class="lead">
+                            The project is dependent on the expertice, knowledge and experience from You, and
+                            hundreds of others.
+                            </p>
                 </div>
-
-                <div class="col-md-3 col-sm-6 service">
-                    <a href='http://ltc.blockr.io/address/info/Lao7yGcSHrDBeCZm69VGUgT28d2FQz1P6f' target='_blank'>
-<img src="img/litecoin.png">
-                    </a>
-                    <h4><strong>Litecoin</strong></h4>
-                    <p>ADDRESS: Lao7yGcSHrDBeCZm69VGUgT28d2FQz1P6f</p>
-                </div>
-
-                <div class="col-md-3 col-sm-6 service">
-                    <a href='https://dogechain.info/address/DBv1pSaisxYbouscUtJVkn9qeBw1SphSek' target='_blank'>
-<img src="img/dogecoin.jpg" />
-</a>
-
-                    <h4><strong>Dogecoin</strong></h4>
-                    <p>ADDRESS: DBv1pSaisxYbouscUtJVkn9qeBw1SphSek</p>
-                </div>
-
-                <div class="col-md-3 col-sm-6 service">
-                    
-                  <a href='https://www.indiegogo.com/projects/the-libertania-project' target='_blank'>
-<img src="img/indiegogo.png" width="211" />
-</a>
-                   
-                    
-                    <h4><strong>Indiegogo</strong></h4>
-                    <p>
-                        Contribute through the Indiegogo collaborative project finanzing web site.
-                        
-                    </p>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="img/ipad.png" alt="">
                 </div>
             </div>
-            
-            <div class="row">
-                <br><br><br>
-                <h2>Contribute with <strong>knowledge</strong></h2>
-                <div class="line">
-                    <hr>
-                </div>
-                <div class="clearfix"></div>
-                
-                <p>
-                We are using GitHub to plan and document the process of building the city. This is a open and
-                transparent way to do everything in the open, and we encourage anyone to contribute with 
-                new content, modifications and improvements.</p>
-                <p>
-                <a href="https://github.com/Libertania">Libertania on GitHub</a></p>                
-            </div>
-            
+
         </div>
+        <!-- /.container -->
+
     </div>
+    <!-- /.content-section-a -->
 
-    <!-- Clients Section
-    ==========================================-->
-    <div id="tf-clients" class="text-center">
-        <div class="overlay">
-            <div class="container">
+    <div class="content-section-b">
 
-                <div class="section-title center">
-                    <h2>Some of <strong>our sponsors</strong></h2>
-                    <div class="line">
-                        <hr>
-                    </div>
-                </div>
-                <div id="clients" class="owl-carousel owl-theme">
-                    <div class="item">
-                        <img src="img/client/01.png">
-                    </div>
-                    <div class="item">
-                        <img src="img/client/02.png">
-                    </div>
-                    <div class="item">
-                        <img src="img/client/03.png">
-                    </div>
-                    <div class="item">
-                        <img src="img/client/04.png">
-                    </div>
-                    <div class="item">
-                        <img src="img/client/05.png">
-                    </div>
-                    <div class="item">
-                        <img src="img/client/06.png">
-                    </div>
-                    <div class="item">
-                        <img src="img/client/07.png">
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Section
-    ==========================================-->
-    <div id="tf-facilities">
-        <div class="container"> <!-- Container -->
-            <div class="section-title text-center center">
-                <h2>Take a look at <strong>our facilities and activities</strong></h2>
-                <div class="line">
-                    <hr>
-                </div>
-                <div class="clearfix"></div>
-                <small><em>
-                    Look at some of the facilities that will be available in Libertania.</em></small>
-            </div>
-            <div class="space"></div>
-
-            <div class="categories">
-                
-                <ul class="cat">
-                    <li class="pull-left"><h4>Filter by Type:</h4></li>
-                    <li class="pull-right">
-                        <ol class="type">
-                            <li><a href="#" data-filter="*" class="active">All</a></li>
-                            <li><a href="#" data-filter=".web">Kids & Family</a></li>
-                            <li><a href="#" data-filter=".photography">Entertainment</a></li>
-                            <li><a href="#" data-filter=".app" >Markets</a></li>
-                            <li><a href="#" data-filter=".branding" >Housing</a></li>
-                        </ol>
-                    </li>
-                </ul>
-                <div class="clearfix"></div>
-            </div>
-
-            <div id="lightbox" class="row">
-
-                <div class="col-sm-6 col-md-3 col-lg-3 branding">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#">
-                                <div class="hover-text">
-                                    <h4>Logo Design</h4>
-                                    <small>Branding</small>
-                                    <div class="clearfix"></div>
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img src="img/portfolio/01.jpg" class="img-responsive" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-3 col-lg-3 photography app">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#">
-                                <div class="hover-text">
-                                    <h4>Logo Design</h4>
-                                    <small>Branding</small>
-                                    <div class="clearfix"></div>
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img src="img/portfolio/02.jpg" class="img-responsive" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-3 col-lg-3 branding">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#">
-                                <div class="hover-text">
-                                    <h4>Logo Design</h4>
-                                    <small>Branding</small>
-                                    <div class="clearfix"></div>
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img src="img/portfolio/03.jpg" class="img-responsive" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-3 col-lg-3 branding">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#">
-                                <div class="hover-text">
-                                    <h4>Logo Design</h4>
-                                    <small>Branding</small>
-                                    <div class="clearfix"></div>
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img src="img/portfolio/04.jpg" class="img-responsive" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-3 col-lg-3 web">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#">
-                                <div class="hover-text">
-                                    <h4>Logo Design</h4>
-                                    <small>Branding</small>
-                                    <div class="clearfix"></div>
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img src="img/portfolio/05.jpg" class="img-responsive" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-3 col-lg-3 app">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#">
-                                <div class="hover-text">
-                                    <h4>Logo Design</h4>
-                                    <small>Branding</small>
-                                    <div class="clearfix"></div>
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img src="img/portfolio/06.jpg" class="img-responsive" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-3 col-lg-3 photography web">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#">
-                                <div class="hover-text">
-                                    <h4>Logo Design</h4>
-                                    <small>Branding</small>
-                                    <div class="clearfix"></div>
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img src="img/portfolio/07.jpg" class="img-responsive" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-3 col-lg-3 web">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#">
-                                <div class="hover-text">
-                                    <h4>Logo Design</h4>
-                                    <small>Branding</small>
-                                    <div class="clearfix"></div>
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img src="img/portfolio/08.jpg" class="img-responsive" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-    <!-- Testimonials Section
-    ==========================================-->
-    <div id="tf-testimonials" class="text-center">
-        <div class="overlay">
-            <div class="container">
-                <div class="section-title center">
-                    <h2><strong>Our citizens’</strong> testimonials</h2>
-                    <div class="line">
-                        <hr>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <div id="testimonial" class="owl-carousel owl-theme">
-                            <div class="item">
-                                <h5>Being able to be, and live in a city where one finally feels at home, is more valuable than any money can buy.</h5>
-                                <p><strong>Sondre Bjellås</strong>, Software Architecture.</p>
-                            </div>
-
-                            <div class="item">
-                                <h5>This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</h5>
-                                <p><strong>Dean Martin</strong>, CEO Acme Inc.</p>
-                            </div>
-
-                            <div class="item">
-                                <h5>This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</h5>
-                                <p><strong>Dean Martin</strong>, CEO Acme Inc.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Contact Section
-    ==========================================-->
-    <div id="tf-contact" class="text-center">
         <div class="container">
 
             <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-
-                    <div class="section-title center">
-                        <h2>Sign up for <strong>newsletter</strong></h2>
-                        <div class="line">
-                            <hr>
-                        </div>
-                        <div class="clearfix"></div>
-                        <small><em>
-                            We currently do not send out a newsletter, but here you can sign up to be notified when there
-                            are any updates and news about the project.</em></small>            
-                    </div>
-
-                    <form>
-                    <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="exampleInputEmail1">Email address</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <button type="submit" class="btn tf-btn btn-default">Sign up (not working)</button>
-                    </form>
-
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Agile Development:<br>Human Centered</h2>
+                    <p class="lead">
+                        The world needs a lot more cities to be built all around the world. The majority of new
+                        cities are built with top-down management, with expensive planning and heavy construction.
+                        </p>
+                                         <p class="lead">
+                        The Libertania Project aims to have a balance between bottom-up and top-down approaches
+                        to planning and processes. Allowing for a more agile approach that enables cities to
+                        grow in a more naturnal and organic manner.
+                        </p>
+                        <p class="lead">
+                        The planning and building should revolve around the humans that inhabit
+                        the spaces. Humans should not adapt to spaces, but spaces should be built with humans
+                        in mind.
+                        </p>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <img class="img-responsive" src="img/people.jpg" alt="">
                 </div>
             </div>
 
         </div>
-    
-    
-    
-    
-     <div class="container">
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-b -->
+
+    <div class="content-section-a">
+
+        <div class="container">
 
             <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-
-                    <div class="section-title center">
-                        <h2>Feel free to <strong>contact us</strong></h2>
-                        <div class="line">
-                            <hr>
-                        </div>
-                        <div class="clearfix"></div>
-                        <small><em>
-                            Here you can submit any comment and feedback to the team behind this project.</em></small>            
-                    </div>
-
-                    <form>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="exampleInputEmail1">Email address</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Message</label>
-                            <textarea class="form-control" rows="3"></textarea>
-                        </div>
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Modern Cities:<br>The Technology Factor</h2>
+                    <p class="lead">
+                       Technology is the main driving force that allows the creation of modern self-sustained
+                       open source cities.
+                    </p>
+                    <p class="lead">
+                        It is the technological advances in computers, alternative energies such as solar,
+                        home automation, electric transporation, low-energy utilities, energy storage and the ability for humans to connect
+                        through the Internet to share expertice and knowledge, that makes it feasable to realize
+                        these cities.
                         
-                        <button type="submit" class="btn tf-btn btn-default">Submit (not working)</button>
-                    </form>
-
+                        
+                    </p>
+                    <p class="lead"></p>
+                    <p class="lead"></p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="img/city_large.jpg" alt="">
                 </div>
             </div>
 
-        <div class="row">
-                <div class="col-md-12">
-<br>
-    <img src="img/libertania_logo.png">
-    
-                    </div>
-                    </div>
-
-
-    
-
         </div>
-    
-    
-    
+        <!-- /.container -->
+
     </div>
+    <!-- /.content-section-a -->
 
-    <nav id="footer">
+
+	<a  name="cities"></a>
+    <div class="content-section-b">
+
         <div class="container">
-            <div class="pull-left fnav">
-                <p>
-                    <a href="https://www.flickr.com/photos/53400673@N08/">Photos by Robert Cross</a></p>
+
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Cities:<br>Liberstad</h2>
+                    <p class="lead">
+                        One of the first cities to be built using The Liberterian Project blueprint for
+                        open source cities.
+                        </p>
+                                         <p class="lead">
+                        <a href="http://liberstad.no/" target="_blank">Liberstad</a> is being built in South Norway.
+                        City is currently in planning and financing state.
+                        </p>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <img class="img-responsive" src="img/liberstad.jpg" alt="">
+                </div>
             </div>
-            <div class="pull-right fnav">
-                <ul class="footer-social">
-                    <li><a href="https://www.facebook.com/libertania.no" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                </ul>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-b -->
+
+
+	<a  name="connect"></a>
+    <div class="banner">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>Connect with the project:</h2>
+                </div>
+                <div class="col-lg-6">
+                    <ul class="list-inline banner-social-buttons">
+                        <li>
+                            <a href="https://github.com/Libertania/" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/libertania.no" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.banner -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#about">About</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#connect">Connect</a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted small"><a href="https://github.com/Libertania/libertania.no"><i class="fa fa-github fa-fw"></i> Source Code</a> | Photos by <a href="https://www.flickr.com/photos/souparna/" target="_blank">Souparna</a> and <a href="https://www.flickr.com/photos/53400673@N08/" target="_blank">Robert Cross</a></p>
+                </div>
             </div>
         </div>
-    </nav>
+    </footer>
 
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script type="text/javascript" src="js/bootstrap.js"></script>
-    <script type="text/javascript" src="js/SmoothScroll.js"></script>
-    <script type="text/javascript" src="js/jquery.isotope.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
 
-    <script src="js/owl.carousel.js"></script>
+</body>
 
-    <!-- Javascripts
-    ================================================== -->
-    <script type="text/javascript" src="js/main.js"></script>
-
-    <script src="https://maps.googleapis.com/maps/api/js"></script>
-    
-    <script>
-      function initialize() {
-        var mapCanvas = document.getElementById('map-canvas');
-        var mapOptions = {
-          center: new google.maps.LatLng(58.2139375, 7.51420619999999),
-          zoom: 8,
-          mapTypeId: google.maps.MapTypeId.ROADMAP
-        }
-        var map = new google.maps.Map(mapCanvas, mapOptions)
-      }
-      google.maps.event.addDomListener(window, 'load', initialize);
-    </script>
-
-  </body>
 </html>
